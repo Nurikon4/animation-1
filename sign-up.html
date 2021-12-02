@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Validation</title>
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img class="header__logo" src="images/logo.png" alt="Logo">
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="main">
+
+        <div class="information">
+          <div class="information-top">
+            <div class="information-top__content">
+              <h1 class="information-top__content-title">
+                Sign in to
+              </h1>
+              <h2 class="information-top__content-subtitle">
+                Nurlan.net is simply
+              </h2>
+              <p class="information-top__content-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.
+              </p>
+            </div>
+            <div class="information-top__img">
+              <img class="information-top__img-img" src="images/fly.png" alt="fly">
+            </div>
+          </div>
+          <div class="information-loginas">
+            <h3 class="information-loginas__title">Login as</h3>
+            <div class="information-loginas__items">
+              <div class="information-loginas__item">
+                <img class="information-loginas__item-img" src="images/delete.png" alt="delete">
+                <img class="information-loginas__item-logo" src="images/John.png" alt="Logo-Loginas">
+                <p class="information-loginas__item-name">John peter</p>
+                <p class="information-loginas__item-active">Active 1 days ago</p>
+              </div>
+              <div class="information-loginas__item">
+                <img class="information-loginas__item-img" src="images/delete.png" alt="delete">
+                <img class="information-loginas__item-logo" src="images/Alina.png" alt="Logo-Loginas">
+                <p class="information-loginas__item-name">Alina shmen</p>
+                <p class="information-loginas__item-active">Active 4 days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sign-in">
+          <div class="sign-in__top">
+            <div class="sign-in__welcome">
+              <h2 class="sign-in__welcome-title">Welcome to <i>Nurlan.net</i></h2>
+              <h2 class="sign-in__welcome-signin">Sign up</h2>
+            </div>
+            <div class="sign-in__signup">
+              <p class="sign-in__signup-text">Have an Account?</p>
+              <a class="sign-in__signup-link" href="index.html">Sign in</a>
+            </div>
+          </div>
+          <form class="signin__form" name="signin">
+            <label for="username">Enter your username or email address</label>
+            <input class="signin__form-input" id="username" name="username" type="text" placeholder="Username or email address">
+            <div class="signin__form-items">
+              <div class="signin__form-item">
+                <label for="name">User name</label>
+                <input class="signin__form-input" id="name" name="nameUp" type="text" placeholder="User name">
+              </div>
+              <div class="signin__form-item">
+                <label for="tel">Contact Number</label>
+                <input class="signin__form-input" id="tel" name="tel" type="tel" placeholder="Contact Number">
+              </div>
+            </div>
+            <label for="password">Enter your Password</label>
+            <input class="signin__form-input" id="password" name="password" type="password" placeholder="Password">
+            <button class="signin__form-button" type="submit">Sign up</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="modal hidden">
+    <div class="modal__box">
+      <h2 class="modal__title">Не все поля заполнены!!!</h2>
+      <button class="modal__ok">Ок</button>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
